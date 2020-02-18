@@ -1,0 +1,37 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "babel-preset-expo": "~8.0.0",
+    "jest-expo": "33.0.0",
+    "react-native-scripts": "1.14.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "~36.0.0",
+    "expo-constants": "~8.0.0",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+    "react-native-material-ui": "latest",
+    "react-native-web": "~0.11.7",
+    "react-navigation": "^2.18.2",
+    "react-navigation-tabs": "0.8.4",
+    "react-redux": "latest",
+    "redux": "latest",
+    "redux-persist": "latest",
+    "redux-thunk": "latest",
+    "react-native-fit-image": "^1.5.4"
+  },
+  "private": true
+}
